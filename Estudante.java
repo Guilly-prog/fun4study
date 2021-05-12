@@ -95,7 +95,8 @@ public class Estudante {
         System.out.println("Nascido no dia " + birthDate);
         System.out.println("Seu endereço de email é: " + email);
         System.out.println("A senha é: " + password);
-        System.out.println("E a sua cidade é: " + city);
+        System.out.println("E a sua cidade é: ");
+        city.exibeDados();
     }
 }            
 
